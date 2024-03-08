@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 16px auto;
+}
+
+.container h1,
+.container h3{
+    margin-bottom: 12px;
+}
+
+.form-campo input{
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.form-campo label,
+button{
+    display: block;
+    margin-top: 16px;
+}
+
+button{
+    padding: 16px;
+    width: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: #aaa8a8;
+    border-radius: 8px;
+}
+
+button:hover{
+    background: rgb(1, 95, 1);
+    color: #fff;
+    cursor: pointer;
+}
